@@ -1,0 +1,13 @@
+.navber{
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    background-color: aqua;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+.navber a{
+    text-decoration: none;
+    font-size: 30px;
+}
