@@ -1,7 +1,7 @@
 import React from 'react';
 import './ShopCard.css';
-const ShopCard = ({shop}) => {
-    console.log(shop);
+const ShopCard = ({shop,buyHeandler}) => {
+    
     const {picture,name,gender,price,_id
     }=shop;
     return (
@@ -11,9 +11,9 @@ const ShopCard = ({shop}) => {
             </div>
             <div> 
                 <h1>{name}</h1>
-                <p>{gender}</p>
-                <h3>{price}</h3>
-                <button className='buy-btn'>buy now</button>
+                <p>Gender: {gender}</p>
+                <h3>Price: ${price}</h3>
+                <button onClick={()=>buyHeandler(shop)} className='buy-btn'>buy now</button>
             </div>
         </div>
     );

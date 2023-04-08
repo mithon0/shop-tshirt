@@ -1,0 +1,31 @@
+.x-mark{
+    width: 20px;
+    color: white;
+    margin-top: auto;
+}
+.p-t{
+    display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.x-btn{
+    border: none;
+    padding: 5px;
+    background-color:rgb(241, 154, 154);
+    border-radius: 100%;
+}
+.x-btn:active{
+    background-color: aqua;
+}
+.red{
+    color: red;
+    background-color: white;
+}
+.blue{
+    color: blue;
+    background-color: white;
+}
+.yellow{
+    color: yellow;
+    background-color: white;
+}
